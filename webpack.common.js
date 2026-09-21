@@ -10,10 +10,10 @@ export default {
         htmlFilename: "index.html",
         path: path.resolve(import.meta.dirname, "dist"),
         clean: true,
-        plugins: [
-            new HtmlWebpackPlugin({
-                template: "./src/template.html",
-            }),
-        ],
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: "./src/template.html",
+        }),
+    ],
 };
