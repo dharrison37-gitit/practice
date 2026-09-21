@@ -1,3 +1,4 @@
 import "./styles.css";
+import modTest from "./mod-test.js";
 
-console.log("connected");
+modTest();
