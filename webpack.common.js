@@ -10,13 +10,6 @@ export default {
         htmlFilename: "index.html",
         path: path.resolve(import.meta.dirname, "dist"),
         clean: true,
-        html: {
-            meta: {
-                charset: "UTF-8",
-                viewport: "width=device-width, initial-scale=1",
-            },
-            title: "Practice JS Production",
-        },
         plugins: [
             new HtmlWebpackPlugin({
                 template: "./src/template.html",
