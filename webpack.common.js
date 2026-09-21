@@ -16,5 +16,10 @@ export default {
             },
             title: "Practice JS Production",
         },
+        plugins: [
+            new HtmlWebpackPlugin({
+                template: "./src/template.html",
+            }),
+        ],
     },
 };
