@@ -1,16 +1,19 @@
-# base-project-template
+# Practice JavaScript Sandbox
 
-A basic boilerplate project template of items being set up each time. This includes webpack basic setup with ability to serve html and css files and resources.
+Just practicing skills learned up to this point including webpack, npm, and bash scripting.
 
 ## Included:
 
 ### Plugins:
-  - HtmlWebPack for html templates
+
+- HtmlWebPack for html templates
 
 ### Rules:
-  - html loaders
-  - css loaders
-  - image loaders
+
+- html loaders
+- css loaders
+- image loaders
 
 ### Development Server:
-  - Set to watch the source folder and template.html
+
+- Set to watch the source folder and template.html
