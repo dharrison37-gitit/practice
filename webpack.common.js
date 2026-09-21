@@ -6,6 +6,7 @@ export default {
     },
     output: {
         filename: "[name].bundle.js",
+        htmlFilename: "index.html",
         path: path.resolve(import.meta.dirname, "dist"),
         clean: true,
         html: {
